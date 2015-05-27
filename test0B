@@ -1,0 +1,64 @@
+3342
+Quiz2
+5
+Suppose the following method exists in the class Test1 and there is
+an object reference of that class, called myObject.
+
+public static void foo(String s)
+
+According to our style guide, which of the following is a correct
+way to call that method?
+
+A. Test.foo(String s);
+B. myObject.foo("Hello");
+C. Test1.foo("Hello");
+D. myObject.foo(String s);
+===
+C
+===
+An object's state is held in its...
+
+A. attributes
+B. methods
+C. identifiers
+D. constants
+===
+A
+===
+How should you fix the following compilation error?
+
+class Test1 is public, should be declared in a file named Test1.java
+
+A. Ask the TA for help.
+B. Change the file extension.
+C. Change the class name.
+D. Rename the file.
+===
+D
+===
+Suppose the following method exists in the class Test1 and there is
+an object reference of that class, called myObject.
+
+public void foobar(double n)
+
+What casting will occur with the following code segment?
+
+int a = 1;
+int b = 2;
+myObject.foobar(a + b);
+
+A. The variables will be promoted and then added.
+B. The variables will be added and the sum promoted to a double.
+C. No casting will occur and a compilation error will result.
+D. The variable a will be promoted, but not b.
+===
+B
+===
+What is the closure property?
+
+A. It is a characteristic whereby an operation is enclosed in brackets.
+B. It is a characteristic whereby the result of an operation is of the same type as the operands.
+C. It is a characteristic whereby the source code has all the braces balanced.
+D. It is a characteristic whereby a class is closed to further editing.
+===
+B

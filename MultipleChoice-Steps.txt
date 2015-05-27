@@ -1,0 +1,39 @@
+===================================================================================
+1. Write a test definition file 
+	- use === as delimiters between questions (and their correct answers)
+===================================================================================
+2. Run MultipleChoiceHTML class on the test definition file to generate an HTML form
+	- redirect output to a new HTML file (e.g. test0A.html)
+===================================================================================
+3. Create a subdirectory under 'www' (e.g., test0A)
+===================================================================================
+4. Copy the following 3 files into www/test0A
+	- test01.html
+	- labtest3311.cgi
+	- .htaccess
+===================================================================================
+5. Create a subdirectory in 'submit' (e.g., test0A)
+===================================================================================
+6. Change the 'submitdir' path in labtest3311.cgi to 'submit/test0A/'
+	- the ending forward slash is necessary
+===================================================================================
+7. Change the '<form action=' part in test0A.html to labtest3311.cgi
+===================================================================================
+8. Open up a browser and enter the url for test0A.html
+	- user name and password will be prompted
+	- Once the form is submitted, there will be a file generated under the student's name in submit/test0A
+===================================================================================
+9. Run MultipleChoice class on student's generated result file to generate a report on student's performance
+===================================================================================
+10. Run GradeMC class to generate the ePost file
+===================================================================================
+
+Permissions:
+	- labtest3311.cgi
+		* chgrp submit
+		* chmod 770
+	- www/test0A
+		* chmod 755
+	- submit/test0A
+		* chgrp submit
+		* chmod 770

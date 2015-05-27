@@ -1,0 +1,63 @@
+3342
+Quiz1 Revised May 8
+5
+Suppose the following method exists in the class Test1 and there is
+an object reference of that class, called myObject.
+
+public static void foo(String s)
+
+What is the return type for that method?
+
+A. public
+B. static
+C. void
+D. String
+===
+C
+===
+A class contains...
+
+A. fields
+B. methods
+C. constants
+D. All the above choices
+===
+D
+===
+How could you fix the following compilation error?
+
+cannot find symbol ToolBox
+
+A. Ask the TA for help.
+B. Change the file extension.
+C. Change the variable's name.
+D. Import the appropriate class.
+===
+D
+===
+Suppose the following method exists in the class Test1 and there is
+an object reference of that class, called myObject.
+
+public void foobar(double n)
+
+What casting will occur with the following code segment?
+
+int a = 1;
+double b = 2;
+myObject.foobar(a + b);
+
+A. The variables will be promoted and then added.
+B. The variables will be added and the sum promoted to a double.
+C. No casting will occur and a compilation error will result.
+D. The variable a will be promoted, but not b.
+===
+D
+===
+If a method's precondition is not satisfied, who is at fault?
+
+A. The implementer of the method
+B. The client who called the method
+C. The person who wrote the contract
+D. The Java Virtual Machine
+===
+B
